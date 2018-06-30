@@ -33,8 +33,8 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
-    "password": "3xp!0reR",
+    "user": "HTY2003",
+    "password": "shh..it's a secret",
     "database": "explorerdb",
     "address": "localhost",
     "port": 27017
@@ -48,8 +48,8 @@
   "wallet": {
     "host": "localhost",
     "port": 20203,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "user": "HTY2003",
+    "pass": "this too"
   },
 
   // confirmations
@@ -80,17 +80,17 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 510,
+    "blockhash": "c1fd1d90e815f52a713799163c026a0615417b04e9ef1e469b65aa790981f317",
+    "txhash": "2f76a738b183db60e74af628ad8f1ded2476e89910a68a61482b5e63f12714fa",
+    "address": "RHReqWuN7T5f9VjyPKmKJ9AttENC8BoZWp"
   },
 
   // market settings
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
+    "coin": "XRI",
     "exchange": "BTC",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
@@ -120,8 +120,8 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "0000049491910730855d59700eb24ea1e28192d254169ae08476cefa2585933d",
+  "genesis_block": "81220b1dc2b45427db49ed86ed5505c1e5dde2b69b4ee030de2b6c4cba69429b",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
@@ -147,7 +147,7 @@
 
   // nethash unitd: sets nethash API return units
   // valid options: "P" (PH/s), "T" (TH/s), "G" (GH/s), "M" (MH/s), "K" (KH/s)
-  "nethash_units": "K",
+  "nethash_units": "M",
 
   // Address labels
   // example : "JhbrvAmM7kNpwA6wD5KoAsbtikLWWMNPcM": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}
